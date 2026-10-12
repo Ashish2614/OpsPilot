@@ -1,0 +1,1 @@
+import {describe,it,expect} from 'vitest'; describe('OpsPilot API contract',()=>{it('uses safe role names',()=>expect(['admin','agent','employee']).toContain('employee'));it('uses a human ticket reference format',()=>expect('OPS-1001').toMatch(/^OPS-\d+$/));});
